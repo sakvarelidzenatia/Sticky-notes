@@ -1,0 +1,146 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ql-container {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: none !important;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ql-editor {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ql-toolbar {
+    border: none !important;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.editor.yellow .ql-editor,
+.editor.yellow .ql-toolbar {
+    background-color: #ffffb3;
+}
+
+.editor.lightblue .ql-editor,
+.editor.lightblue .ql-toolbar {
+    background-color: #b3e5fc;
+}
+
+.editor.lightgreen .ql-editor,
+.editor.lightgreen .ql-toolbar {
+    background-color: #b2fab4;
+}
+
+.editor.lightpink .ql-editor,
+.editor.lightpink .ql-toolbar {
+    background-color: #ffc1e3;
+}
+
+.editor.lightcoral .ql-editor,
+.editor.lightcoral .ql-toolbar {
+    background-color: #f7a1a1;
+}
+
+.editor.mistyrose .ql-editor,
+.editor.mistyrose .ql-toolbar {
+    background-color: #fff1f0;
+}
+
+.editor.orange .ql-editor,
+.editor.orange .ql-toolbar {
+    background-color: #ffe0b2;
+}
+
+.editor.orangered .ql-editor,
+.editor.orangered .ql-toolbar {
+    background-color: #ffb299;
+}
+
+.editor.aqua .ql-editor,
+.editor.aqua .ql-toolbar {
+    background-color: #e0ffff;
+}
+
+.editor.darkcyan .ql-editor,
+.editor.darkcyan .ql-toolbar {
+    background-color: #40e0d0;
+}
+
+.editor.darksalmon .ql-editor,
+.editor.darksalmon .ql-toolbar {
+    background-color: #ffc4c4;
+}
+
+.editor.skyblue .ql-editor,
+.editor.skyblue .ql-toolbar {
+    background-color: #b3ecff;
+}
+
+.editor.gold .ql-editor,
+.editor.gold .ql-toolbar {
+    background-color: #fffdc1;
+}
+
+.ql-toolbar .ql-formats button,
+.ql-toolbar .ql-formats select {
+    font-size: large;
+}
+
+.Header {
+    height: 2.5vh;
+    cursor: default;
+    padding: 1vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: x-large;
+}
+
+.options {
+    margin-left: auto;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    transition: transform 0.2s;
+
+}
+
+.options:hover {
+    transform: scale(1.2);
+
+}
+.close {
+    transition: tranform 0.2ms;
+}
+.close:hover {
+    transform: scale(1.2);
+}
+
+
+
+img {
+    height: 2vh;
+    transition: transform 0.2s;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+
+}

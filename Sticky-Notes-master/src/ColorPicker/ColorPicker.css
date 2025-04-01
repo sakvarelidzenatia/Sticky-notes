@@ -1,0 +1,39 @@
+.color-picker {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.color-swatch {
+    width:2.13vw;
+    height: 8vh;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-swatch:hover {
+    transform: scale(1.2);
+}
+.check-mark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: larger;
+    pointer-events: none;
+
+}
+.plus {
+    transition: transform 0.2s;
+
+}
+.plus:hover {
+    transform: scale(1.2);
+
+}
+
+abbr {
+    text-decoration: none;
+}
+
